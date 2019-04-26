@@ -5,6 +5,9 @@
   "homepage": "http://creative-tim.com/product/now-ui-kit",
   "author": "Creative Tim",
   "license": "Creative Tim License <www.creative-tim.com/license>",
+  "scripts": {
+    "start": "serve"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
@@ -13,5 +16,8 @@
     "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-open": "^3.0.1"
+  },
+  "dependencies": {
+    "serve": "^11.0.0"
   }
 }
